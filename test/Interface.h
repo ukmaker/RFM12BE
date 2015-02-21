@@ -1,6 +1,7 @@
-#include <inttypes.h>
 #ifndef INTERFACE_H
 #define INTERFACE_H
+
+#include <inttypes.h>
 
 // Grotesque hack to declare something which looks like Interface
 // There's probably a correct way to do this without having to write
