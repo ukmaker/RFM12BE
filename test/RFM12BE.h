@@ -12,8 +12,6 @@
 #ifndef RFM12BE_H
 #define RFM12BE_H
 
-#include <Arduino.h>
-#include <util/crc16.h>
 #include <inttypes.h>
 #include "Interface.h"
 

@@ -11,6 +11,9 @@
  **/
 #include "RFM12BE.h"
 
+#include <Arduino.h>
+#include <util/crc16.h>
+
  RFM12BE::RFM12BE() {
 
 	buf = (struct Buffer *) malloc(sizeof(struct Buffer));
